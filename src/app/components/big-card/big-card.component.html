@@ -1,14 +1,7 @@
 <div class="container__big-card">
-    <div class="big-card__photo">
-        <img src="{{photoCover}}" alt=""
-        height=""
-        >
-    </div>
-    <div class="big-card__title">
-        <a href="#"> {{cardTitle}} </a>
-    </div>
-    <div class="big-card__description">
-        {{cardDescription}}
-        
-    </div>
+    <div class="big-card__photo"> <img [routerLink]="['content', Id]" src="{{photoCover}}" alt=""height="">  </div>
+   
+    <div class="big-card__title"> <a [routerLink]="['content', Id]"> {{cardTitle}} </a>  </div>
+   
+    <div class="big-card__description"> <a [routerLink]="['content', Id]"> {{cardDescription}} </a>  </div>
 </div>

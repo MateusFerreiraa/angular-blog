@@ -17,8 +17,8 @@
     font-weight: bold
 }
 
-.big-card__description{
-    color: gray;
+.big-card__description a {
+    color: rgb(170, 170, 170);
     margin-top: 10px;
 }
 
